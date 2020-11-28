@@ -1,8 +1,9 @@
 # 1MG_Test
 
-### DEV Installation
+###  INIT ENV
 
 ```sh
-$ docker pull jupyter/pyspark-notebook
-$ docker run -p 8888:8888 jupyter/pyspark-notebook
+$ docker-compose up
 ```
+Then access to: http://127.0.0.1:8888/notebooks/1MG.ipynb
+
